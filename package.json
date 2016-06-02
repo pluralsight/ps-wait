@@ -1,0 +1,24 @@
+{
+  "name": "ps-wait",
+  "version": "1.0.0",
+  "description": "Wait for a condition to be met",
+  "main": "wait.js",
+  "scripts": {
+    "test": "mocha \"**/*.specs.js\""
+  },
+  "keywords": [
+    "wait",
+    "until",
+    "poll"
+  ],
+  "author": "Pluralsight",
+  "license": "ISC",
+  "dependencies": {
+    "is-promise": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
+}
