@@ -1,6 +1,6 @@
 {
   "name": "ps-wait",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Wait for a condition to be met",
   "main": "wait.js",
   "scripts": {
