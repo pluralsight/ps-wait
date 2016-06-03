@@ -4,7 +4,9 @@
   "description": "Wait for a condition to be met",
   "main": "wait.js",
   "scripts": {
-    "test": "mocha \"**/*.specs.js\""
+    "test": "mocha \"**/*.specs.js\"",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "wait",
